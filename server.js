@@ -1,4 +1,4 @@
-const PORT = 3000;
+const PORT = 80;
 let express = require('express');
 let socket = require('socket.io');
 

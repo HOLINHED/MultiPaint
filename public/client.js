@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('http://localhost');
 let clientColor;
 let px,py,size;
 let con = false;
