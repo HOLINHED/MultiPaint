@@ -1,5 +1,5 @@
 //const socket = io('http://holinhedxyz-multipaint.herokuapp.com');
-const socket = io('https://localhost');
+const socket = io('localhost');
 let clientColor;
 let px,py,size;
 let con = false;
