@@ -9,12 +9,6 @@ let io = socket(server);
 app.use(express.static('public'));
 
 io.sockets.on('connection', (socket)=>{
-    let idData = {
-        id: socket.id,
-    };
-
-    io.sockets.emit("id", idData);
-
     socket.on('mouse', (data)=>{
         socket.broadcast.emit('mouse', data);
     });

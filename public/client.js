@@ -20,7 +20,7 @@ function setup(){
         fill(data.c.r,data.c.g,data.c.b);
         ellipse(data.x,data.y,data.s,data.s);
     });
-    socket.on("id", (idData)=>document.getElementById("client_id").innerHTML = "id: " + idData.id);
+    document.getElementById("client_id").innerHTML = "id: " + socket.id;
 }
 
 function mouseDragged(){
