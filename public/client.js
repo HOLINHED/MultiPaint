@@ -1,4 +1,4 @@
-const socket = io('https://holinhedxyz-multipaint.herokuapp.com/');
+const socket = io('http://localhost:3000');
 let clientColor;
 let px,py,size;
 let con = false;
